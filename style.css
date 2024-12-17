@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center; 
+}                            
+.resume_container{
+    height: auto;
+    width: 800px;
+    display: flex;
+    background: white;
+    box-shadow: 0 0 20px #0e2630;
+}
+
+                                 /* FOR LEFT SIDE */
+.left{
+    height: auto;
+    width: 45%;
+    font-size: 12px;
+    background-color: #0e2630;
+}
+.bg-color{
+    height: 240px;
+    background-color:#966b5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 240px;
+    width: 240px;
+    background-image: url("snap.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 
+}
+.content{
+    color: white;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 15%;
+}
+.about-name{
+    font-size: 40px;
+    text-decoration:underline;
+    font-family:serif;
+    color: #E6E6E6;
+    margin-top: 5%;
+}
+a{
+    color: rgba(8, 132, 248, 0.973);
+}
+.pro-language, .frameworks, .language, .info ,.paragraph{
+    font-size: 17px; 
+    color: #E6E6E6 ;
+}
+                             /* /FOR RIGHT SIDE/ */
+.right{
+    height: auto;
+    padding-left: 7%;
+}   
+.my-name{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    color:#0e2630;
+    text-decoration: underline #0e2630 ;
+    font-size:55px;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.employment, .education ,#skills{
+    width: 90%;
+    font-size: 30px;
+    text-decoration:underline;
+    font-family:serif;
+    margin-top: 4%;
+    border: 2px solid  #a7350f;
+   color: #0e2630;
+    box-shadow: 0 0 20px #966b5d;
+    
+}
+#key{
+    font-size:30px ;
+    font-size: 15px;
+}  
+.heading{
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 0%;
+}
+p{
+    font-size: 17px;
+    margin-top: 0;
+}
+li{
+    font-size: 20px;
+}
+.skills-options {
+    display: block;
+    margin: 0;
+}
+.skills-options.hide {
+    display: none;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #966b5d;
+    font-size: 18px;
+    border: 2px solid #a7350f;
+}
+button:hover{
+     background-color: #993e1f;
+}
+
+
+                                                     /* for responsive */
+
+/* Media Query for mobile screen */
+@media screen and (max-width: 600px) {
+     
+    body{
+        display: flex;
+        align-items: center;
+        margin-top:10% ;
+    }
+    /* for left side */
+    .left {
+        width:40%;
+    }
+    .content{
+        color: white;
+        padding-right:3%;
+        padding-left: 10%;
+    } 
+    .bg-color{
+        height: 100px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+    .about-name {
+        font-size: 18px;
+    }
+    .paragraph, .info {
+        font-size: 7px;
+    }
+    h1{
+        font-size: 11px;
+    }
+    .pro-language, .language, .frameworks{
+        font-size:9px;
+    }
+
+    /* for right side */
+    .my-name {
+        font-size: 25px;
+        margin-bottom: 6%;
+        margin-top: 0;
+    }
+    .employment, .education, #skills {
+        font-size: 13px;
+    }
+    .heading{
+        font-size:10px ;
+    }
+    p{
+        font-size:8px ;
+    }
+    li{
+        font-size: 10px;
+    }
+    button {
+        font-size: 8px;
+    }     
+}
