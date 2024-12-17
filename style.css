@@ -127,7 +127,7 @@ button:hover{
     body{
         display: flex;
         align-items: center;
-        margin-top:10% ;
+        margin-top:30% ;
     }
     /* for left side */
     .left {
